@@ -1,0 +1,28 @@
+name: ✏️ Doküman Düzeltme Önerisi
+description: Sitedeki mevcut bir dokümanda hata, eksik veya ekleme olduğunu bildir.
+title: "[Düzeltme] "
+labels: ["düzeltme"]
+assignees: []
+body:
+  - type: input
+    id: sayfa
+    attributes:
+      label: İlgili Sayfa
+      description: Düzeltmek istediğin dokümanın bağlantısı
+      placeholder: https://alperenalbay.github.io/UNI-wiki/docs/...
+    validations:
+      required: true
+  - type: textarea
+    id: sorun
+    attributes:
+      label: Sorun / Eksik Nedir?
+      description: Sayfada neyin yanlış veya eksik olduğunu açıkla.
+      placeholder: örn. "Kurulum" bölümündeki adım 3'te yanlış yazılmış.
+    validations:
+      required: true
+  - type: textarea
+    id: onerilen
+    attributes:
+      label: Önerilen Düzeltme (opsiyonel)
+      description: Düzeltilmiş haliyle içeriği buraya yaz.
+      render: markdown

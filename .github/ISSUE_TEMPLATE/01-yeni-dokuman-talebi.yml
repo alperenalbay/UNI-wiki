@@ -1,0 +1,65 @@
+name: 📄 Yeni Doküman Talebi
+description: Sitede olmasını istediğin yeni bir doküman öner. İçeriği Markdown olarak yapıştır, destek ekibi inceleyip siteye eklesin.
+title: "[Yeni Doküman] "
+labels: ["yeni doküman"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Teşekkürler! Aşağıdaki alanları doldurduğunda talep otomatik olarak oluşturulacak. İçerik uygunsa destek ekibi tarafından siteye eklenecek.
+  - type: input
+    id: baslik
+    attributes:
+      label: Doküman Başlığı
+      description: Sayfanın başlığı ne olsun?
+      placeholder: örn. Zirve firma aktarımında sık yapılan hatalar
+    validations:
+      required: true
+  - type: dropdown
+    id: kategori
+    attributes:
+      label: Kategori
+      description: Dokümanın hangi kategoriye girmesini istersin?
+      options:
+        - Kurumsal ve Genel
+        - Ürünler ve Paketler
+        - Fiyatlandırma ve Hesaplama
+        - İndirmeler ve Kurulum
+        - Başlangıç ve Kurulum
+        - Genel Muhasebe
+        - Ön Muhasebe
+        - İnsan Kaynakları
+        - SSS ve İpuçları
+        - Diğer
+      default: 9
+    validations:
+      required: true
+  - type: textarea
+    id: icerik
+    attributes:
+      label: Doküman İçeriği (Markdown)
+      description: Yazdığın Markdown içeriğini buraya yapıştır. Birden fazla bölüm (## başlık) ekleyebilirsin.
+      placeholder: |
+        ## Konu
+
+        Buraya içeriğini yaz...
+
+        ## Adımlar
+
+        1. Adım...
+      render: markdown
+    validations:
+      required: true
+  - type: input
+    id: kaynak
+    attributes:
+      label: Kaynak / Referans (opsiyonel)
+      description: İçeriğin dayandığı bağlantı, doküman veya video.
+  - type: checkboxes
+    id: onay
+    attributes:
+      label: Gönderim Onayı
+      options:
+        - label: Bu içeriğin Unideva dokümantasyon sitesine eklenmesini onaylıyorum.
+          required: true
