@@ -1,0 +1,233 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0284c7;
+  --ifm-color-primary-dark: #0369a1;
+  --ifm-color-primary-darker: #075985;
+  --ifm-color-primary-darkest: #0c4a6e;
+  --ifm-color-primary-light: #38bdf8;
+  --ifm-color-primary-lighter: #7dd3fc;
+  --ifm-color-primary-lightest: #bae6fd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #38bdf8;
+  --ifm-color-primary-dark: #0284c7;
+  --ifm-color-primary-darker: #0369a1;
+  --ifm-color-primary-darkest: #075985;
+  --ifm-color-primary-light: #7dd3fc;
+  --ifm-color-primary-lighter: #bae6fd;
+  --ifm-color-primary-lightest: #e0f2fe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .navbar__logo img {
+  background: #ffffff;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+/* Navbar arama çubuğunu merkeze al (masaüstü) */
+.navbar__inner {
+  position: relative;
+}
+
+@media (min-width: 997px) {
+  .navbar__search {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 0;
+    width: min(540px, 40vw);
+    z-index: 10;
+  }
+
+  .navbar__search .navbar__search-input {
+    width: 100%;
+    height: 2.25rem;
+    font-size: 0.95rem;
+  }
+
+  .navbar__search .dropdownMenu {
+    width: 100% !important;
+  }
+}
+
+/* ===== Doküman sayfası modernleştirme ===== */
+
+/* Başlık hiyerarşisi */
+.theme-doc-markdown > h1 {
+  position: relative;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  padding-bottom: 0.9rem;
+}
+
+.theme-doc-markdown > h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #38bdf8, #0284c7);
+}
+
+.theme-doc-markdown > h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.theme-doc-markdown > h3 {
+  font-weight: 700;
+}
+
+/* Bağlantılar */
+.theme-doc-markdown a {
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+
+.theme-doc-markdown a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Yatay çizgi */
+.theme-doc-markdown hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--ifm-color-emphasis-400),
+    transparent
+  );
+}
+
+/* Blok alıntı */
+.theme-doc-markdown blockquote {
+  border-left: 3px solid var(--ifm-color-primary);
+  background: var(--ifm-color-primary-contrast-background);
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 0.75rem 1rem;
+}
+
+/* Kod blokları */
+.theme-doc-markdown pre {
+  border-radius: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.theme-doc-markdown :not(pre) > code {
+  border-radius: 0.35rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* Admonitions */
+.theme-doc-markdown .theme-admonition {
+  border-radius: 0.6rem;
+  box-shadow: 0 2px 8px rgba(2, 6, 23, 0.05);
+}
+
+/* Tablolar */
+.theme-doc-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(2, 6, 23, 0.06);
+  font-size: 0.92rem;
+}
+
+.theme-doc-markdown table thead {
+  background: linear-gradient(135deg, #0ea5e9, #0284c7);
+}
+
+.theme-doc-markdown table thead th {
+  color: #ffffff;
+  font-weight: 700;
+  border-bottom: none;
+}
+
+.theme-doc-markdown table th,
+.theme-doc-markdown table td {
+  border-color: var(--ifm-color-emphasis-200);
+}
+
+.theme-doc-markdown table tbody tr:nth-child(even) {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.theme-doc-markdown table tbody tr:hover {
+  background: var(--ifm-color-primary-contrast-background);
+}
+
+/* Breadcrumbs */
+.breadcrumbs__link {
+  transition: color 0.12s ease;
+}
+
+.breadcrumbs__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* TOC (sağ menü) */
+.theme-doc-toc-desktop .table-of-contents {
+  font-size: 0.85rem;
+}
+
+.theme-doc-toc-desktop .table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+.theme-doc-toc-desktop .table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Sidebar */
+.menu__link {
+  border-radius: 0.5rem;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  font-weight: 600;
+  box-shadow: inset 3px 0 0 var(--ifm-color-primary);
+}
+
+/* Sayfalama (önceki/sonraki) */
+.pagination-nav__link {
+  border-radius: 0.75rem;
+  border-color: var(--ifm-color-emphasis-200);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 8px 20px rgba(2, 6, 23, 0.08);
+  transform: translateY(-1px);
+}
+
+/* Metin seçimi */
+::selection {
+  background: rgba(56, 189, 248, 0.3);
+}
