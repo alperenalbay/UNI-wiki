@@ -101,7 +101,7 @@ const config = {
             label: 'Kılavuz',
           },
           {
-            href: 'https://github.com/devatek/unideva-docs',
+            href: 'https://github.com/alperenalbay/UNI-wiki',
             label: 'GitHub',
             position: 'right',
           },
