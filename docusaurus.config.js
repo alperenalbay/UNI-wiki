@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://unideva.devatek.com',
+  url: 'https://alperenalbay.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/UNI-wiki/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'devatek', // Usually your GitHub org/user name.
-  projectName: 'unideva-docs', // Usually your repo name.
+  organizationName: 'alperenalbay', // Usually your GitHub org/user name.
+  projectName: 'UNI-wiki', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 
