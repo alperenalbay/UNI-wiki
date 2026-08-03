@@ -69,6 +69,7 @@ const sidebars = {
       items: [
         'insan-kaynaklari/personel-kartlari',
         'insan-kaynaklari/bordro-ve-istisnalar',
+        'insan-kaynaklari/bordro-tutarsizligi',
       ],
     },
     {
