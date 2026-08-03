@@ -59,6 +59,7 @@ const sidebars = {
       label: 'Ön Muhasebe',
       items: [
         'on-muhasebe/fatura-ve-irsaliye',
+        'on-muhasebe/fatura-kesim-limitleri',
         'on-muhasebe/cari-ve-stok-yonetimi',
         'on-muhasebe/kasa-banka-cek-senet',
       ],
