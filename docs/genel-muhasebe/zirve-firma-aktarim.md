@@ -6,7 +6,7 @@ description: "Zirve Masaüstü'nden Unideva'ya firma veri aktarımının adım a
 
 Bu kılavuz, Zirve masaüstü programından Unideva'ya firma verilerinin eksiksiz ve hatasız aktarılması için izlenmesi gereken tüm adımları açıklar.
 
-> ⚠️ **Not:** Bu doküman, Devatek ekibinin müşteri veri aktarım süreçlerinde kullandığı operasyonel bir kılavuzdur. Genel bilgi için [Zirve ve Luca Veri Aktarımı](./zirve-luca-aktarim) sayfasını inceleyebilirsiniz.
+> ⚠️ **Not:** Bu doküman, Devatek ekibinin müşteri veri aktarım süreçlerinde kullandığı operasyonel bir kılavuzdur.
 
 ## 1. Firma Veritabanlarının Hazırlanması
 

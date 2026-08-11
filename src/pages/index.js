@@ -94,28 +94,28 @@ const icons = {
 
 const quickLinks = [
   {
-    icon: icons.rocket,
-    title: 'Unideva Nedir?',
-    desc: 'Bulut mimari ve ürün ailesine hızlı bir giriş.',
-    to: '/docs/baslangic-ve-kurulum/unideva-nedir',
+    icon: icons.package,
+    title: 'Paket Fiyatları',
+    desc: 'Lisanslama, firma sınırları ve ek ücret politikaları.',
+    to: '/docs/fiyatlandirma-ve-hesaplama/paket-fiyatlari',
   },
   {
-    icon: icons.package,
-    title: 'Kurulum ve Giriş',
-    desc: 'İlk adımlar, sisteme giriş ve mobil uygulama.',
-    to: '/docs/baslangic-ve-kurulum/kurulum-ve-giris',
+    icon: icons.rocket,
+    title: 'e-Defter / Mükellef Hesaplama',
+    desc: 'Firma, kullanıcı ve e-Defter hesaplama esasları.',
+    to: '/docs/fiyatlandirma-ve-hesaplama/e-defter-ve-mukellef-hesaplama',
   },
   {
     icon: icons.file,
-    title: 'Fatura ve İrsaliye',
-    desc: 'e-Fatura, e-Arşiv ve e-İrsaliye düzenleme.',
-    to: '/docs/on-muhasebe/fatura-ve-irsaliye',
+    title: 'Fatura Kesim Limitleri',
+    desc: '12.000 TL ve üzeri faturalarda alıcı bilgisi zorunluluğu.',
+    to: '/docs/on-muhasebe/fatura-kesim-limitleri',
   },
   {
     icon: icons.book,
-    title: 'Sık Sorulan Sorular',
-    desc: 'En çok merak edilenler ve yanıtları.',
-    to: '/docs/sss-ve-ipuclari/sik-sorulan-sorular',
+    title: 'GİB Durum Kodları',
+    desc: 'e-Fatura gönderiminde tüm durum kodları ve çözümleri.',
+    to: '/docs/sss-ve-ipuclari/gib-durum-kodlari',
   },
 ];
 
@@ -123,26 +123,26 @@ const modules = [
   {
     icon: icons.calculator,
     title: 'Genel Muhasebe',
-    desc: 'Fiş girişi, muavin-mizan, e-Defter işlemleri ve Zirve/Luca veri aktarımı.',
-    to: '/docs/genel-muhasebe/zirve-luca-aktarim',
+    desc: 'Zirve Masaüstü\'nden Unideva\'ya firma veri aktarım kılavuzu.',
+    to: '/docs/genel-muhasebe/zirve-firma-aktarim',
   },
   {
     icon: icons.file,
     title: 'Ön Muhasebe',
-    desc: 'Fatura, cari-stok yönetimi ve kasa-banka-çek-senet işlemleri.',
-    to: '/docs/on-muhasebe/fatura-ve-irsaliye',
+    desc: 'Fatura kesim limitleri ve alıcı bilgisi zorunluluğu.',
+    to: '/docs/on-muhasebe/fatura-kesim-limitleri',
   },
   {
     icon: icons.users,
     title: 'İnsan Kaynakları',
-    desc: 'Personel kartları, bordro hesaplama ve kanuni istisnalar.',
-    to: '/docs/insan-kaynaklari/personel-kartlari',
+    desc: '31 günlük aylarda bordro tutarsızlığı düzeltme adımları.',
+    to: '/docs/insan-kaynaklari/bordro-tutarsizligi',
   },
   {
     icon: icons.refresh,
     title: 'e-Dönüşüm',
-    desc: 'e-Fatura, e-Arşiv, e-İrsaliye ve e-Defter süreçlerinin yönetimi.',
-    to: '/docs/urunler-ve-paketler/deva-donusum',
+    desc: 'Kredi havuzuna firma ekleme ve e-Defter gönderim süreçleri.',
+    to: '/docs/rehberler-ve-kodlar/kredi-havuzu-ekleme',
   },
   {
     icon: icons.tag,
@@ -153,31 +153,31 @@ const modules = [
   {
     icon: icons.search,
     title: 'GİB Durum Kodları',
-    desc: 'E-Fatura güvenli durum kodları ve hata çözüm rehberi.',
+    desc: 'E-Fatura gönderiminde tüm durum kodları ve hata çözüm rehberi.',
     to: '/docs/sss-ve-ipuclari/gib-durum-kodlari',
   },
 ];
 
 const products = [
   {
-    name: 'Unideva Lite',
-    desc: 'Küçük ölçekli işletmeler için pratik ön muhasebe çözümü.',
-    to: '/docs/urunler-ve-paketler/unideva-lite',
-  },
-  {
-    name: 'Unideva Elite',
-    desc: 'Büyüyen KOBİ\'ler için kapsamlı yönetim paketi.',
-    to: '/docs/urunler-ve-paketler/unideva-elite',
-  },
-  {
-    name: 'Unideva Prime',
-    desc: 'Mali müşavirler ve muhasebe büroları için profesyonel paket.',
-    to: '/docs/urunler-ve-paketler/unideva-prime',
-  },
-  {
     name: 'Deva Dönüşüm',
     desc: 'GİB standartlarına tam uyumlu e-dönüşüm portalı.',
     to: '/docs/urunler-ve-paketler/deva-donusum',
+  },
+  {
+    name: 'Masaüstü Kurulum',
+    desc: 'Unideva setup, transfer aracı ve yardımcı yazılımlar.',
+    to: '/docs/indirmeler-ve-kurulum/masaustu-kurulum',
+  },
+  {
+    name: 'Mobil Uygulamalar',
+    desc: 'iOS, Android ve Huawei AppGallery indirme bağlantıları.',
+    to: '/docs/indirmeler-ve-kurulum/mobil-uygulamalar',
+  },
+  {
+    name: 'Blog ve Duyurular',
+    desc: 'Resmi blog ve YouTube eğitim kanalı bağlantıları.',
+    to: '/docs/rehberler-ve-kodlar/blog-ve-duyurular',
   },
 ];
 
@@ -195,7 +195,7 @@ function Hero() {
         <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.heroActions}>
-          <Link className={styles.heroPrimary} to="/docs/baslangic-ve-kurulum/unideva-nedir">
+          <Link className={styles.heroPrimary} to="/docs/fiyatlandirma-ve-hesaplama/paket-fiyatlari">
             Kılavuzları Keşfet
           </Link>
           <Link className={styles.heroGhost} to="/docs/sss-ve-ipuclari/gib-durum-kodlari">

@@ -114,16 +114,16 @@ const config = {
             title: 'Kılavuzlar',
             items: [
               {
-                label: 'Başlangıç ve Kurulum',
-                to: '/docs/baslangic-ve-kurulum/unideva-nedir',
+                label: 'Paket Fiyatları',
+                to: '/docs/fiyatlandirma-ve-hesaplama/paket-fiyatlari',
               },
               {
-                label: 'Genel Muhasebe',
-                to: '/docs/genel-muhasebe/zirve-luca-aktarim',
+                label: 'GİB Durum Kodları',
+                to: '/docs/sss-ve-ipuclari/gib-durum-kodlari',
               },
               {
-                label: 'Ön Muhasebe',
-                to: '/docs/on-muhasebe/fatura-ve-irsaliye',
+                label: 'Kredi Havuzuna Firma Ekleme',
+                to: '/docs/rehberler-ve-kodlar/kredi-havuzu-ekleme',
               },
             ],
           },
