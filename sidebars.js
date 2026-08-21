@@ -28,6 +28,7 @@ const sidebars = {
       label: 'Genel Muhasebe',
       items: [
         'genel-muhasebe/zirve-firma-aktarim',
+        'genel-muhasebe/defter-beyan-api-anahtari',
       ],
     },
     {
