@@ -55,6 +55,13 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Formlar ve Belgeler',
+      items: [
+        'formlar/portal-fesih-formu',
+      ],
+    },
+    {
+      type: 'category',
       label: 'SSS ve İpuçları',
       items: [
         'sss-ve-ipuclari/gib-durum-kodlari',
