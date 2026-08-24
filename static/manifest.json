@@ -1,0 +1,20 @@
+{
+  "name": "Unideva Bilgi ve Dokümantasyon Havuzu",
+  "short_name": "Unideva Wiki",
+  "description": "Devatek Unideva Bulut Muhasebe ve e-Dönüşüm Çözümleri Kılavuzu",
+  "icons": [
+    {
+      "src": "/UNI-wiki/img/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/UNI-wiki/img/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0a58ca",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
