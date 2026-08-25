@@ -62,6 +62,13 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Araçlar ve Yamalar',
+      items: [
+        'araclar/surukle-birak-duzeltmesi',
+      ],
+    },
+    {
+      type: 'category',
       label: 'SSS ve İpuçları',
       items: [
         'sss-ve-ipuclari/gib-durum-kodlari',
