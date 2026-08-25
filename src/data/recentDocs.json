@@ -30,16 +30,6 @@
     "file": "docs/genel-muhasebe/defter-beyan-api-anahtari.md"
   },
   {
-    "title": "GİB Durum Kodları",
-    "description": "E-Fatura, e-Arşiv ve e-İrsaliye gönderim süreçlerinde GİB'den dönen tüm durum kodları, açıklamaları, nedenleri ve yap...",
-    "url": "/docs/sss-ve-ipuclari/gib-durum-kodlari",
-    "category": "SSS ve İpuçları",
-    "categoryKey": "sss-ve-ipuclari",
-    "date": "11.08.2026",
-    "isoDate": "2026-08-11",
-    "file": "docs/sss-ve-ipuclari/gib-durum-kodlari.md"
-  },
-  {
     "title": "Kredi Havuzuna Firma Ekleme (e-Defter Havuza Mükellef Ekleme)",
     "description": "Unideva Prime'da Bulutta İmzalama ve Saklama kredi havuzuna firma/mükellef ekleme ve çıkarma adımları.",
     "url": "/docs/rehberler-ve-kodlar/kredi-havuzu-ekleme",
@@ -48,5 +38,15 @@
     "date": "11.08.2026",
     "isoDate": "2026-08-11",
     "file": "docs/rehberler-ve-kodlar/kredi-havuzu-ekleme.md"
+  },
+  {
+    "title": "Fatura Kesim Limitleri",
+    "description": "2026 yılı itibarıyla 12.000 TL ve üzeri faturalar için zorunlu alıcı bilgileri ve dikkat edilmesi gerekenler.",
+    "url": "/docs/on-muhasebe/fatura-kesim-limitleri",
+    "category": "Ön Muhasebe",
+    "categoryKey": "on-muhasebe",
+    "date": "03.08.2026",
+    "isoDate": "2026-08-03",
+    "file": "docs/on-muhasebe/fatura-kesim-limitleri.md"
   }
 ]

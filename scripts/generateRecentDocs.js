@@ -64,8 +64,12 @@ function parseDoc(filePath) {
 function getGitTimestamp(filePath) {
   try {
     const rel = path.relative(path.join(__dirname, '..'), filePath).replace(/\\/g, '/');
-    const out = execSync(`git log -1 --format=%ct -- "${rel}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] }).trim();
+    // İlk eklenme (creation) tarihi — son güncelleme değil, "son eklenen" için
+    const out = execSync(`git log --diff-filter=A --follow --format=%ct -- "${rel}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] }).trim().split(/\r?\n/).filter(Boolean).pop();
     if (out) return parseInt(out, 10);
+    // fallback: en eski commit (reverse)
+    const out2 = execSync(`git log --reverse --format=%ct -- "${rel}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] }).trim().split(/\r?\n/)[0];
+    if (out2) return parseInt(out2, 10);
   } catch (_) {}
   // fallback mtime
   try {
@@ -79,8 +83,10 @@ function getGitTimestamp(filePath) {
 function getGitDateShort(filePath) {
   try {
     const rel = path.relative(path.join(__dirname, '..'), filePath).replace(/\\/g, '/');
-    const out = execSync(`git log -1 --format=%ad --date=short -- "${rel}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] }).trim();
+    const out = execSync(`git log --diff-filter=A --follow --format=%ad --date=short -- "${rel}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] }).trim().split(/\r?\n/).filter(Boolean).pop();
     if (out) return out;
+    const out2 = execSync(`git log --reverse --format=%ad --date=short -- "${rel}"`, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] }).trim().split(/\r?\n/)[0];
+    if (out2) return out2;
   } catch (_) {}
   try {
     const stat = fs.statSync(filePath);
