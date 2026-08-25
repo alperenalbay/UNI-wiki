@@ -93,33 +93,6 @@ const icons = {
   ),
 };
 
-const quickLinks = [
-  {
-    icon: icons.package,
-    title: 'Paket Fiyatları',
-    desc: 'Lisanslama, firma sınırları ve ek ücret politikaları.',
-    to: '/docs/fiyatlandirma-ve-hesaplama/paket-fiyatlari',
-  },
-  {
-    icon: icons.rocket,
-    title: 'e-Defter / Mükellef Hesaplama',
-    desc: 'Firma, kullanıcı ve e-Defter hesaplama esasları.',
-    to: '/docs/fiyatlandirma-ve-hesaplama/e-defter-ve-mukellef-hesaplama',
-  },
-  {
-    icon: icons.file,
-    title: 'Fatura Kesim Limitleri',
-    desc: '12.000 TL ve üzeri faturalarda alıcı bilgisi zorunluluğu.',
-    to: '/docs/on-muhasebe/fatura-kesim-limitleri',
-  },
-  {
-    icon: icons.book,
-    title: 'GİB Durum Kodları',
-    desc: 'e-Fatura gönderiminde tüm durum kodları ve çözümleri.',
-    to: '/docs/sss-ve-ipuclari/gib-durum-kodlari',
-  },
-];
-
 const modules = [
   {
     icon: icons.calculator,
@@ -222,27 +195,6 @@ function Hero() {
   );
 }
 
-function QuickLinks() {
-  return (
-    <section className={styles.section}>
-      <div className="container">
-        <div className={styles.grid4}>
-          {quickLinks.map((item) => (
-            <Link key={item.title} className={styles.card} to={item.to}>
-              <div className={styles.cardIcon}>{item.icon}</div>
-              <div className={styles.cardTitle}>{item.title}</div>
-              <div className={styles.cardDesc}>{item.desc}</div>
-              <span className={styles.cardLink}>
-                İncele {icons.arrowRight}
-              </span>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function Modules() {
   return (
     <section className={styles.sectionAlt}>
@@ -323,7 +275,6 @@ export default function Home() {
       title={`${siteConfig.title} - Ana Sayfa`}
       description="Devatek Unideva Bulut Muhasebe ve e-Dönüşüm Çözümleri Kılavuzu">
       <Hero />
-      <QuickLinks />
       <RecentDocs />
       <Modules />
       <Products />
