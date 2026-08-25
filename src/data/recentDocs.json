@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Sürükle-Bırak Düzeltmesi (Drag & Drop)",
+    "description": "Windows sürükle-bırak (drag & drop) çalışmadığında UAC kaynaklı sorunun çözümü: DragDrop.reg düzeltmesi indirme, uygu...",
+    "url": "/docs/araclar/surukle-birak-duzeltmesi",
+    "category": "Araçlar ve Yamalar",
+    "categoryKey": "araclar",
+    "date": "25.08.2026",
+    "isoDate": "2026-08-25",
+    "file": "docs/araclar/surukle-birak-duzeltmesi.md"
+  },
+  {
+    "title": "Portal Fesih Formu",
+    "description": "Portal Fesih Formu - Devatek e-Dönüşüm portalı fesih işlemleri için gerekli formun indirilmesi ve kullanımı.",
+    "url": "/docs/formlar/portal-fesih-formu",
+    "category": "Formlar ve Belgeler",
+    "categoryKey": "formlar",
+    "date": "24.08.2026",
+    "isoDate": "2026-08-24",
+    "file": "docs/formlar/portal-fesih-formu.md"
+  },
+  {
+    "title": "Defter-Beyan API Anahtarı Yönetimi ve Kontrolü",
+    "description": "Defter-Beyan API anahtarı yönetimi ve kontrol kılavuzu: üç taraf, iki anahtar türü, portalda anahtar üretme, kontrol ...",
+    "url": "/docs/genel-muhasebe/defter-beyan-api-anahtari",
+    "category": "Genel Muhasebe",
+    "categoryKey": "genel-muhasebe",
+    "date": "21.08.2026",
+    "isoDate": "2026-08-21",
+    "file": "docs/genel-muhasebe/defter-beyan-api-anahtari.md"
+  },
+  {
+    "title": "GİB Durum Kodları",
+    "description": "E-Fatura, e-Arşiv ve e-İrsaliye gönderim süreçlerinde GİB'den dönen tüm durum kodları, açıklamaları, nedenleri ve yap...",
+    "url": "/docs/sss-ve-ipuclari/gib-durum-kodlari",
+    "category": "SSS ve İpuçları",
+    "categoryKey": "sss-ve-ipuclari",
+    "date": "11.08.2026",
+    "isoDate": "2026-08-11",
+    "file": "docs/sss-ve-ipuclari/gib-durum-kodlari.md"
+  },
+  {
+    "title": "Kredi Havuzuna Firma Ekleme (e-Defter Havuza Mükellef Ekleme)",
+    "description": "Unideva Prime'da Bulutta İmzalama ve Saklama kredi havuzuna firma/mükellef ekleme ve çıkarma adımları.",
+    "url": "/docs/rehberler-ve-kodlar/kredi-havuzu-ekleme",
+    "category": "Rehberler ve Kodlar",
+    "categoryKey": "rehberler-ve-kodlar",
+    "date": "11.08.2026",
+    "isoDate": "2026-08-11",
+    "file": "docs/rehberler-ve-kodlar/kredi-havuzu-ekleme.md"
+  }
+]

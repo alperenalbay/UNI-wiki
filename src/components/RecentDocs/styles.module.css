@@ -1,0 +1,163 @@
+.recentSection {
+  padding: 3.5rem 0 3rem;
+  background: linear-gradient(180deg, var(--ifm-background-color) 0%, var(--ifm-color-emphasis-100) 100%);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.recentHead {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.6rem;
+}
+
+.recentTitle {
+  font-size: clamp(1.45rem, 3vw, 1.9rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.recentLead {
+  margin: 0.5rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+.recentAllLink {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 0.4rem 0;
+}
+
+.recentAllLink:hover {
+  text-decoration: underline;
+}
+
+.recentGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .recentGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 700px) {
+  .recentGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.recentCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem 1.2rem 1.15rem;
+  border-radius: 0.9rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-color);
+  box-shadow: 0 1px 2px rgba(2, 6, 23, 0.04);
+  text-decoration: none !important;
+  color: var(--ifm-font-color-base) !important;
+  transition: transform 0.17s ease, box-shadow 0.17s ease, border-color 0.17s ease;
+  min-height: 175px;
+}
+
+.recentCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(2, 6, 23, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.recentMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.recentCategory {
+  color: var(--ifm-color-primary);
+}
+
+.recentDot {
+  color: var(--ifm-color-emphasis-500);
+}
+
+.recentDate {
+  color: var(--ifm-color-emphasis-600);
+  font-weight: 500;
+}
+
+.recentBadge {
+  margin-left: auto;
+  background: #0ea5e9;
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  padding: 0.18rem 0.45rem;
+  border-radius: 999px;
+  line-height: 1;
+}
+
+.recentCardTitle {
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.6em;
+}
+
+.recentDesc {
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-700);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.recentLink {
+  margin-top: 0.2rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.recentFootNote {
+  margin-top: 1.4rem;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.recentFootNote code {
+  font-size: 0.78rem;
+  background: var(--ifm-color-emphasis-200);
+  padding: 0.08rem 0.3rem;
+  border-radius: 4px;
+}

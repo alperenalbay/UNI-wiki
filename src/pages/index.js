@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
+import RecentDocs from '@site/src/components/RecentDocs';
 
 const iconProps = {
   viewBox: '0 0 24 24',
@@ -323,6 +324,7 @@ export default function Home() {
       description="Devatek Unideva Bulut Muhasebe ve e-Dönüşüm Çözümleri Kılavuzu">
       <Hero />
       <QuickLinks />
+      <RecentDocs />
       <Modules />
       <Products />
       <SupportCTA />
