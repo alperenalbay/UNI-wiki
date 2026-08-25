@@ -6,7 +6,7 @@ description: "Portal Fesih Formu - Devatek e-Dönüşüm portalı fesih işlemle
 
 Devatek e-Dönüşüm portalı üzerinden verilen hizmetlerin sonlandırılması (fesih) gerektiğinde kullanılacak resmi formdur. Formu indirip, doldurarak ilgili birime iletebilirsiniz.
 
-:::tip İndir
+:::tip[İndir]
 Aşağıdaki butona tıklayarak güncel Portal Fesih Formu'nu PDF olarak indirebilirsiniz.
 :::
 

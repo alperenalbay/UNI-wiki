@@ -29,6 +29,6 @@ Devatek Unideva Bulut Muhasebe yazılımı resmi [Devatek Fiyat Listesi](https:/
 
 - **e-Defter Modülü Kampanyası:** e-Defter modülü standart ücreti **9.500 TL** olup, **31.12.2026** tarihine kadar yapılan satın alımlarda **ilk yıl 20 e-Defter ücretsiz** olarak sunulmaktadır.
 
-:::tip Güncel Teklifler
+:::tip[Güncel Teklifler]
 Güncel abonelik ücretleri, kontör paketleri ve e-dönüşüm kontör fiyat listeleri için resmi [Devatek Fiyat Listesi](https://www.devatek.com/fiyat-listesi) sayfasını ziyaret edebilirsiniz.
 :::

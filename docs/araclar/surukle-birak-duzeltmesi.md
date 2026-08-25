@@ -8,7 +8,7 @@ Bilgisayarda dosya sürükle-bırak işlemi hiç çalışmıyorsa veya bazı pro
 
 Bu sayfadaki `DragDrop.reg` düzeltmesi bu engeli kaldırır.
 
-:::tip İndir
+:::tip[İndir]
 Aşağıdaki dosya RAR içinde tek bir kayıt defteri anahtarını içerir. İndirip RAR'dan çıkarın, ardından `DragDrop.reg`'i çift tıklayın.
 :::
 
