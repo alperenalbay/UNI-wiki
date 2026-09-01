@@ -62,6 +62,13 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Banka Entegrasyonları',
+      items: [
+        'banka-entegrasyonlari/mt940-ip-adresi',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Araçlar ve Yamalar',
       items: [
         'araclar/surukle-birak-duzeltmesi',

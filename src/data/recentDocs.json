@@ -1,5 +1,15 @@
 [
   {
+    "title": "MT940 Entegrasyon IP Adresi",
+    "description": "Tüm bankalar için MT940 entegrasyon IP adresi: 213.250.144.198 — banka tarafında beyaz listeye eklenmesi gereken stat...",
+    "url": "/docs/banka-entegrasyonlari/mt940-ip-adresi",
+    "category": "banka-entegrasyonlari",
+    "categoryKey": "banka-entegrasyonlari",
+    "date": "01.09.2026",
+    "isoDate": "2026-09-01",
+    "file": "docs/banka-entegrasyonlari/mt940-ip-adresi.md"
+  },
+  {
     "title": "Sürükle-Bırak Düzeltmesi (Drag & Drop)",
     "description": "Windows sürükle-bırak (drag & drop) çalışmadığında UAC kaynaklı sorunun çözümü: DragDrop.reg düzeltmesi indirme, uygu...",
     "url": "/docs/araclar/surukle-birak-duzeltmesi",
@@ -38,15 +48,5 @@
     "date": "11.08.2026",
     "isoDate": "2026-08-11",
     "file": "docs/rehberler-ve-kodlar/kredi-havuzu-ekleme.md"
-  },
-  {
-    "title": "Fatura Kesim Limitleri",
-    "description": "2026 yılı itibarıyla 12.000 TL ve üzeri faturalar için zorunlu alıcı bilgileri ve dikkat edilmesi gerekenler.",
-    "url": "/docs/on-muhasebe/fatura-kesim-limitleri",
-    "category": "Ön Muhasebe",
-    "categoryKey": "on-muhasebe",
-    "date": "03.08.2026",
-    "isoDate": "2026-08-03",
-    "file": "docs/on-muhasebe/fatura-kesim-limitleri.md"
   }
 ]
