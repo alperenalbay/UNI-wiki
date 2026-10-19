@@ -89,6 +89,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          editUrl: 'https://github.com/alperenalbay/UNI-wiki/edit/main/',
         },
         blog: {
           showReadingTime: true,
