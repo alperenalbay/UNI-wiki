@@ -6,7 +6,7 @@ description: "Veri aktarımında paket klasör adı kuralı: klasör adı neden 
 
 Veri aktarımı yüklemesi sunucuda, paket numarası ve oturum kimliğinden oluşan bir klasöre açılır. Aktarım modülü (**LedgerData**) çalıştırılırken aranan ilk şey, bu klasörün **içindeki firma klasörüdür**. Firma klasörünün adı, Unideva'daki firma adıyla birebir uyuşmuyorsa aktarım, dosyalar eksiksiz yüklenmiş olsa bile başarısız olur.
 
-:::info Kimin için
+:::info[Kimin için]
 - **Destek ekibi:** `Could not find a part of the path` hatası geldiğinde sebebi dakikalar içinde ayırt etmek için.
 - **Aktarımı yapan kişi:** Paketi hazırlarken klasör adını ilk seferde doğru vermek için.
 :::
@@ -49,7 +49,7 @@ Yükleme tamamlanır, sunucu dosyaları paket klasörüne açar; ancak LedgerDat
 | `<Oturum Kimliği>` | Bu yükleme için açılan benzersiz klasör (GUID). |
 | `<aranan klasör>` | Bulunamayan firma klasörü. Adı genellikle beklenen firma kimliğidir. |
 
-:::info Bilgi
+:::info[Bilgi]
 Hata metninde yolun sonu sayısal görünebilir (ör. `/23`). Bu, sunucunun firma kimliğini sayı olarak tutmasından kaynaklanır; çözümü yine de klasörü **firma adıyla** adlandırmaktır. Sayısal ad (`23`) ile denemek işe yaramaz.
 :::
 
