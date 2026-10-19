@@ -57,6 +57,7 @@ Aktarım öncesinde Unideva'da ilgili firmanın tanımlanması gerekir.
 3. Yukarıdan **Muhasebe Veri Aktarımı** seçin.
 4. **Klasör Seç** butonuna tıklayın.
 5. `C:\devatek\unideva\transfer\Paket No\Firma Adı` klasörünü seçin.
+   > ⚠️ Klasör adı **firma adının kendisi** olmalıdır; sayısal kod (`0023`, `23`) kullanılmamalıdır. Ayrıntı: [Veri Aktarımında Paket Klasör Adı Kuralı](veri-aktarim-klasor-adi).
 6. **Yükle** butonuna basarak verileri aktarın.
 
 ## 6. Kontrol

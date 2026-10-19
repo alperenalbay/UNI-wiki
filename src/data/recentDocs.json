@@ -1,5 +1,15 @@
 [
   {
+    "title": "Veri Aktarımında Paket Klasör Adı Kuralı",
+    "description": "Veri aktarımında paket klasör adı kuralı: klasör adı neden firma adı olmalı, sayısal kod neden 'Could not find a part...",
+    "url": "/docs/genel-muhasebe/veri-aktarim-klasor-adi",
+    "category": "Genel Muhasebe",
+    "categoryKey": "genel-muhasebe",
+    "date": "19.10.2026",
+    "isoDate": "2026-10-19",
+    "file": "docs/genel-muhasebe/veri-aktarim-klasor-adi.md"
+  },
+  {
     "title": "MT940 Entegrasyon IP Adresi",
     "description": "Tüm bankalar için MT940 entegrasyon IP adresi: 213.250.144.198 — banka tarafında beyaz listeye eklenmesi gereken stat...",
     "url": "/docs/banka-entegrasyonlari/mt940-ip-adresi",
@@ -38,15 +48,5 @@
     "date": "21.08.2026",
     "isoDate": "2026-08-21",
     "file": "docs/genel-muhasebe/defter-beyan-api-anahtari.md"
-  },
-  {
-    "title": "Kredi Havuzuna Firma Ekleme (e-Defter Havuza Mükellef Ekleme)",
-    "description": "Unideva Prime'da Bulutta İmzalama ve Saklama kredi havuzuna firma/mükellef ekleme ve çıkarma adımları.",
-    "url": "/docs/rehberler-ve-kodlar/kredi-havuzu-ekleme",
-    "category": "Rehberler ve Kodlar",
-    "categoryKey": "rehberler-ve-kodlar",
-    "date": "11.08.2026",
-    "isoDate": "2026-08-11",
-    "file": "docs/rehberler-ve-kodlar/kredi-havuzu-ekleme.md"
   }
 ]
