@@ -1,4 +1,4 @@
-# Blog ve Duyurular
+﻿# Blog ve Duyurular
 
 Devatek ve Unideva dünyasındaki en son yenilikler, mevzuat değişiklikleri ve duyurular.
 

@@ -1,5 +1,6 @@
----
+﻿---
 description: "E-Fatura, e-Arşiv ve e-İrsaliye gönderim süreçlerinde GİB'den dönen tüm durum kodları, açıklamaları, nedenleri ve yapılması gerekenler."
+keywords: ["GİB", "Durum", "Kodları", "sss-ve-ipuclari"]
 ---
 
 # GİB Durum Kodları

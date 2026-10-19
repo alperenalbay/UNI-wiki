@@ -1,5 +1,6 @@
----
+﻿---
 description: "Veri aktarımında paket klasör adı kuralı: klasör adı neden firma adı olmalı, sayısal kod neden 'Could not find a part of the path' hatası verir, hata teşhisi ve düzeltme adımları."
+keywords: ["Veri", "Aktarımında", "Paket", "Klasör", "Adı", "Kuralı", "genel-muhasebe"]
 ---
 
 # Veri Aktarımında Paket Klasör Adı Kuralı

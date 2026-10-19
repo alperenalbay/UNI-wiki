@@ -1,5 +1,6 @@
----
+﻿---
 description: "31 gün olan aylarda personel bordrolarında maaş tutarı ve çalışma günü hatalı göründüğünde yapılması gereken düzeltme adımları."
+keywords: ["Bordro", "Tutarsızlığı", "insan-kaynaklari"]
 ---
 
 # Bordro Tutarsızlığı

@@ -1,5 +1,6 @@
----
+﻿---
 description: "Tüm bankalar için MT940 entegrasyon IP adresi: 213.250.144.198 — banka tarafında beyaz listeye eklenmesi gereken statik IP."
+keywords: ["MT940", "Entegrasyon", "Adresi", "banka-entegrasyonlari"]
 ---
 
 # MT940 Entegrasyon IP Adresi

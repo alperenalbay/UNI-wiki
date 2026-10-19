@@ -1,5 +1,6 @@
----
+﻿---
 description: "Unideva Prime'da Bulutta İmzalama ve Saklama kredi havuzuna firma/mükellef ekleme ve çıkarma adımları."
+keywords: ["Kredi", "Havuzuna", "Firma", "Ekleme", "e-Defter", "Havuza", "Mükellef", "rehberler-ve-kodlar"]
 ---
 
 # Kredi Havuzuna Firma Ekleme (e-Defter Havuza Mükellef Ekleme)

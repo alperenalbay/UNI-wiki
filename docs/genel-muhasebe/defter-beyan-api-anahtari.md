@@ -1,5 +1,6 @@
----
+﻿---
 description: "Defter-Beyan API anahtarı yönetimi ve kontrol kılavuzu: üç taraf, iki anahtar türü, portalda anahtar üretme, kontrol aracı, hata mesajları sözlüğü ve hızlı teşhis akışı."
+keywords: ["Defter-Beyan", "API", "Anahtarı", "Yönetimi", "Kontrolü", "genel-muhasebe"]
 ---
 
 # Defter-Beyan API Anahtarı Yönetimi ve Kontrolü

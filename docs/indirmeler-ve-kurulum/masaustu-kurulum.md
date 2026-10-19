@@ -1,4 +1,4 @@
-# Masaüstü Kurulum ve Araçlar
+﻿# Masaüstü Kurulum ve Araçlar
 
 Unideva ve Deva Dönüşüm ekosisteminde kullanılan masaüstü yardımcı araçları ve kurulum dosyaları.
 

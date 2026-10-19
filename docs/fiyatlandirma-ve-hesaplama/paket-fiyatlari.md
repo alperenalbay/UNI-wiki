@@ -1,4 +1,4 @@
-# Paket Fiyatları ve Lisanslama Politikası
+﻿# Paket Fiyatları ve Lisanslama Politikası
 
 Devatek Unideva Bulut Muhasebe yazılımı resmi [Devatek Fiyat Listesi](https://www.devatek.com/fiyat-listesi) verilerine dayanarak lisanslama ve ek ücretlendirme detayları aşağıda yer almaktadır.
 

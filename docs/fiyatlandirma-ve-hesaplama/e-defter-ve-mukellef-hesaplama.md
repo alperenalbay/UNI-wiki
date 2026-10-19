@@ -1,4 +1,4 @@
-# e-Defter ve Mükellef Hesaplama Esasları
+﻿# e-Defter ve Mükellef Hesaplama Esasları
 
 Mali müşavirler için tasarlanan **Unideva Prime** paketinde ve e-dönüşüm süreçlerinde uygulanan limit, sınır aşımı ve ek maliyet hesaplama yöntemleri:
 

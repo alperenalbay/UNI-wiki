@@ -1,5 +1,6 @@
----
+﻿---
 description: "Windows sürükle-bırak (drag & drop) çalışmadığında UAC kaynaklı sorunun çözümü: DragDrop.reg düzeltmesi indirme, uygulama ve geri alma adımları."
+keywords: ["Sürükle-Bırak", "Düzeltmesi", "Drag", "Drop", "araclar"]
 ---
 
 # Sürükle-Bırak Düzeltmesi (Drag & Drop)

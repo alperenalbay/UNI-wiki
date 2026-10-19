@@ -1,5 +1,6 @@
----
+﻿---
 description: "Zirve Masaüstü'nden Unideva'ya firma veri aktarımının adım adım kılavuzu: veritabanı hazırlama, transfer programı, firma tanımlama ve yükleme süreci."
+keywords: ["Zirve", "Masaüstü'nden", "Unideva'ya", "Veri", "Aktarım", "Kılavuzu", "genel-muhasebe"]
 ---
 
 # Zirve Masaüstü'nden Unideva'ya Veri Aktarım Kılavuzu

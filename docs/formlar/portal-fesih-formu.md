@@ -1,5 +1,6 @@
----
+﻿---
 description: "Portal Fesih Formu - Devatek e-Dönüşüm portalı fesih işlemleri için gerekli formun indirilmesi ve kullanımı."
+keywords: ["Portal", "Fesih", "Formu", "formlar"]
 ---
 
 # Portal Fesih Formu

@@ -1,5 +1,6 @@
----
+﻿---
 description: "2026 yılı itibarıyla 12.000 TL ve üzeri faturalar için zorunlu alıcı bilgileri ve dikkat edilmesi gerekenler."
+keywords: ["Fatura", "Kesim", "Limitleri", "on-muhasebe"]
 ---
 
 # Fatura Kesim Limitleri
