@@ -6,15 +6,18 @@ description: "Veri aktarımında paket klasör adı kuralı: klasör adı neden 
 
 Veri aktarımı yüklemesi sunucuda, paket numarası ve oturum kimliğinden oluşan bir klasöre açılır. Aktarım modülü (**LedgerData**) çalıştırılırken aranan ilk şey, bu klasörün **içindeki firma klasörüdür**. Firma klasörünün adı, Unideva'daki firma adıyla birebir uyuşmuyorsa aktarım, dosyalar eksiksiz yüklenmiş olsa bile başarısız olur.
 
-> ℹ️ **Kimin için:**
-> - **Destek ekibi:** `Could not find a part of the path` hatası geldiğinde sebebi dakikalar içinde ayırt etmek için.
-> - **Aktarımı yapan kişi:** Paketi hazırlarken klasör adını ilk seferde doğru vermek için.
+:::info Kimin için
+- **Destek ekibi:** `Could not find a part of the path` hatası geldiğinde sebebi dakikalar içinde ayırt etmek için.
+- **Aktarımı yapan kişi:** Paketi hazırlarken klasör adını ilk seferde doğru vermek için.
+:::
 
 ---
 
 ## 1. Kural
 
-> ⚠️ **Aktarım klasörünün adı harf içermeli, yani firma adının kendisi olmalıdır. Sayısal kod (`0023`, `23` gibi) kullanılmamalıdır.**
+:::warning
+Aktarım klasörünün adı harf içermeli, yani firma adının kendisi olmalıdır. Sayısal kod (`0023`, `23` gibi) kullanılmamalıdır.
+:::
 
 Doğru yapı, transfer kılavuzundaki standart yerleşimdir:
 
@@ -46,7 +49,9 @@ Yükleme tamamlanır, sunucu dosyaları paket klasörüne açar; ancak LedgerDat
 | `<Oturum Kimliği>` | Bu yükleme için açılan benzersiz klasör (GUID). |
 | `<aranan klasör>` | Bulunamayan firma klasörü. Adı genellikle beklenen firma kimliğidir. |
 
-> ℹ️ **Bilgi:** Hata metninde yolun sonu sayısal görünebilir (ör. `/23`). Bu, sunucunun firma kimliğini sayı olarak tutmasından kaynaklanır; çözümü yine de klasörü **firma adıyla** adlandırmaktır. Sayısal ad (`23`) ile denemek işe yaramaz.
+:::info Bilgi
+Hata metninde yolun sonu sayısal görünebilir (ör. `/23`). Bu, sunucunun firma kimliğini sayı olarak tutmasından kaynaklanır; çözümü yine de klasörü **firma adıyla** adlandırmaktır. Sayısal ad (`23`) ile denemek işe yaramaz.
+:::
 
 ## 3. Teşhis
 
@@ -81,4 +86,4 @@ Klasör adı düzeltildikten sonra dosya içeriği değişmeden aktarım geçer.
 
 ## İlgili Kılavuzlar
 
-- [Zirve Masaüstü'nden Unideva'ya Veri Aktarım Kılavuzu](zirve-firma-aktarim)
+- [Zirve Masaüstü'nden Unideva'ya Veri Aktarım Kılavuzu](/docs/genel-muhasebe/zirve-firma-aktarim)
