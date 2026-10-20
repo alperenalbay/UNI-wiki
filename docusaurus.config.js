@@ -125,6 +125,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: 'og:site_name', content: 'Unideva Doküman' },
+        { name: 'og:type', content: 'website' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Unideva Bilgi ve Dokümantasyon Havuzu' },
+        { name: 'twitter:description', content: 'Devatek Unideva Bulut Muhasebe ve e-Dönüşüm Çözümleri Kılavuzu' },
+      ],
       // Replace with your project's social card
       image: 'img/social-card.png',
       colorMode: {

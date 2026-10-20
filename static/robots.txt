@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /search
+
+Sitemap: https://alperenalbay.github.io/UNI-wiki/sitemap.xml
