@@ -1,0 +1,12 @@
+{
+  "theme.SearchBar.label": { "message": "Ara..." },
+  "theme.SearchBar.seeAll": { "message": "Tüm sonuçları gör" },
+  "theme.SearchBar.noResultsText": { "message": "Sonuç bulunamadı" },
+  "theme.SearchBar.searchInContext": { "message": "\"{context}\" içindeki tüm sonuçları gör" },
+  "theme.SearchBar.seeAllOutsideContext": { "message": "\"{context}\" dışındaki tüm sonuçları gör" },
+  "theme.SearchPage.existingResultsTitle": { "message": "\"{query}\" için sonuçlar" },
+  "theme.SearchPage.emptyResultsTitle": { "message": "Dokümanlarda ara" },
+  "theme.SearchPage.documentsFound.plurals": { "message": "{count} sonuç bulundu" },
+  "theme.SearchPage.noResultsText": { "message": "Sonuç bulunamadı" },
+  "theme.SearchPage.searchContext.everywhere": { "message": "Her yerde" }
+}
