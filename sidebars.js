@@ -56,6 +56,34 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'UBL-TR Kılavuzları',
+      items: [
+        'ubl-tr/genel-aciklamalar',
+        {
+          type: 'category',
+          label: 'Belgeler',
+          items: [
+            'ubl-tr/belgeler/fatura',
+            'ubl-tr/belgeler/irsaliye',
+            'ubl-tr/belgeler/irsaliye-yaniti',
+            'ubl-tr/belgeler/uygulama-yaniti',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Senaryolar',
+          items: [
+            'ubl-tr/senaryolar/temel-fatura-senaryosu',
+            'ubl-tr/senaryolar/ticari-fatura-senaryosu',
+            'ubl-tr/senaryolar/temel-irsaliye-senaryosu',
+          ],
+        },
+        'ubl-tr/ortak-elemanlar',
+        'ubl-tr/kod-listeleri',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Formlar ve Belgeler',
       items: [
         'formlar/portal-fesih-formu',

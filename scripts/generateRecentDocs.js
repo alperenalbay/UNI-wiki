@@ -21,6 +21,7 @@ const CATEGORY_LABELS = {
   'sss-ve-ipuclari': 'SSS ve İpuçları',
   'formlar': 'Formlar ve Belgeler',
   'araclar': 'Araçlar ve Yamalar',
+  'ubl-tr': 'UBL-TR Kılavuzları',
 };
 
 function walk(dir, list = []) {
