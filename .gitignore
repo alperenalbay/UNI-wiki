@@ -20,3 +20,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 testsprite_tests/
+
+# Local source copies of official UBL-TR guides (PDFs are served from static/files/ubl-tr)
+UBLTR_1.2.1_*/
