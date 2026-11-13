@@ -5,6 +5,11 @@ const sidebars = {
       label: 'Ürünler ve Paketler',
       items: [
         'urunler-ve-paketler/deva-donusum',
+        'urunler-ve-paketler/elite',
+        'urunler-ve-paketler/suit',
+        'urunler-ve-paketler/optima',
+        'urunler-ve-paketler/bordro',
+        'urunler-ve-paketler/web-uygulamasi',
       ],
     },
     {

@@ -185,13 +185,17 @@ const config = {
                 href: 'https://www.devatek.com',
               },
               {
-                label: 'Destek Merkezi',
-                href: 'https://destek.devatek.com',
+                label: 'Destek Hattı: 0 (850) 309 08 08',
+                href: 'tel:+908503090808',
+              },
+              {
+                label: 'WhatsApp Destek',
+                href: 'https://wa.me/908503090808',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Devatek Yazılım A.Ş. Tüm hakları saklıdır.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Devatek Bilgi Teknolojileri A.Ş. Tüm hakları saklıdır.`,
       },
       prism: {
         theme: prismThemes.github,

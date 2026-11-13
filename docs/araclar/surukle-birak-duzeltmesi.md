@@ -106,4 +106,4 @@ Veya `Win + R` → `regedit` → `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\
 
 ---
 
-> ℹ️ Bu araç **Devatek** tarafından Windows UAC kaynaklı sürükle-bırak engeli için sağlanan geçici bir düzeltmedir. Sorun devam ederse [İletişim](https://www.devatek.com) veya `iletisim@devatek.com` üzerinden destek alın. `DragDrop.reg`'i yalnızca kaynağından (bu sayfa) indirin.
+> ℹ️ Bu araç **Devatek** tarafından Windows UAC kaynaklı sürükle-bırak engeli için sağlanan geçici bir düzeltmedir. Sorun devam ederse [İletişim](https://www.devatek.com/iletisim), 0 (850) 309 08 08 (hafta içi 09:00–18:00) veya [WhatsApp](https://wa.me/908503090808) üzerinden destek alın. `DragDrop.reg`'i yalnızca kaynağından (bu sayfa) indirin.

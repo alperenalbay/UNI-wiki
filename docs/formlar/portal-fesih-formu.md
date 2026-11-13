@@ -40,7 +40,7 @@ Aşağıdaki butona tıklayarak güncel Portal Fesih Formu'nu PDF olarak indireb
 1. Formu bilgisayarınıza indirin ve çıktısını alın (veya dijital olarak doldurun).
 2. Firma bilgileri (Unvan, VKN/TCKN), yetkili bilgileri ve fesih talebine konu hizmetleri eksiksiz doldurun.
 3. Yetkili kişi tarafından imzalayın; tüzel kişiliklerde kaşe ekleyin.
-4. Formu destek ekibine iletin: **iletisim@devatek.com** veya Destek Merkezi üzerinden.
+4. Formu destek ekibine iletin: **iletisim@devatek.com** veya 0 (850) 309 08 08 numaralı destek hattı üzerinden (hafta içi 09:00–18:00).
 
 > ⚠️ Eksik bilgi veya imzasız formlar işleme alınamaz. Formun güncel sürümünü daima bu sayfadan indirin.
 

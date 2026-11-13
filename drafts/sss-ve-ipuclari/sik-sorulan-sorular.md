@@ -9,4 +9,4 @@ Devatek Unideva Bulut Muhasebe ve **Deva Dönüşüm** süreçleri hakkında en 
 - **S: e-Fatura / Deva Dönüşüm entegrasyonu ne kadar sürede aktif olur?**
   C: Mali mühür temin edildikten sonra aynı gün içerisinde e-dönüşüm entegrasyonu tamamlanır.
 - **S: Teknik destek için nereden ulaşabilirim?**
-  C: [Devatek Destek Merkezi](https://destek.devatek.com) üzerinden veya 0 (850) 309 08 08 numaralı çağrı merkezimizden bize ulaşabilirsiniz.
+  C: 0 (850) 309 08 08 numaralı çağrı merkezimizden bize ulaşabilirsiniz.

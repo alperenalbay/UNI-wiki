@@ -54,4 +54,4 @@ E-Fatura, e-Arşiv ve e-İrsaliye gönderim süreçlerinde Gelir İdaresi Başka
 
 ---
 
-> 💡 **Devatek Destek Notu:** GİB durum kodları hakkında takıldığınız teknik konularda [Destek Merkezi](https://destek.devatek.com) üzerinden bizimle iletişime geçebilirsiniz.
+> 💡 **Devatek Destek Notu:** GİB durum kodları hakkında takıldığınız teknik konularda 0 (850) 309 08 08 numaralı destek hattından (hafta içi 09:00–18:00) veya [WhatsApp](https://wa.me/908503090808) üzerinden bizimle iletişime geçebilirsiniz.

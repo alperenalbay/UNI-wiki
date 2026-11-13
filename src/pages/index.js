@@ -134,9 +134,29 @@ const modules = [
 
 const products = [
   {
-    name: 'Deva Dönüşüm',
-    desc: 'GİB standartlarına tam uyumlu e-dönüşüm portalı.',
+    name: 'Deva Dönüşüm / e-Dönüşüm Portalı',
+    desc: 'GİB standartlarına tam uyumlu e-dönüşüm portalı ve başvuru akışı.',
     to: '/docs/urunler-ve-paketler/deva-donusum',
+  },
+  {
+    name: 'Unideva Elite',
+    desc: 'Ticari paketler: Elite-S/M/L ve Elite-Prime (ticari + genel muhasebe).',
+    to: '/docs/urunler-ve-paketler/elite',
+  },
+  {
+    name: 'Unideva Suit',
+    desc: 'Üretim paketleri: reçete, iş emri, lot/fire, fason ve kalite kontrol.',
+    to: '/docs/urunler-ve-paketler/suit',
+  },
+  {
+    name: 'Unideva Optima',
+    desc: 'İK ve bordro: özlük, izin, çalışan portalı, puantaj, SGK/MUHSGK.',
+    to: '/docs/urunler-ve-paketler/optima',
+  },
+  {
+    name: 'Unideva Web',
+    desc: 'Kurulumsuz, tarayıcıdan kullanılan aboneliğe dahil web uygulaması.',
+    to: '/docs/urunler-ve-paketler/web-uygulamasi',
   },
   {
     name: 'Masaüstü Kurulum',
@@ -256,11 +276,12 @@ function SupportCTA() {
           <div className={styles.ctaGlow} />
           <h2 className={styles.ctaTitle}>Yanıtınızı bulamadınız mı?</h2>
           <p className={styles.ctaText}>
-            Devatek Destek Merkezi'ne ulaşın; uzman ekibimiz her konuda size
+            Devatek destek hattına hafta içi 09:00–18:00 arasında 0 (850) 309 08 08
+            numarasından veya WhatsApp üzerinden ulaşın; uzman ekibimiz her konuda size
             yardımcı olsun.
           </p>
-          <Link className={styles.ctaBtn} href="https://destek.devatek.com">
-            Destek Merkezi'ne Git
+          <Link className={styles.ctaBtn} href="https://wa.me/908503090808">
+            WhatsApp Destek Hattı
           </Link>
         </div>
       </div>

@@ -14,13 +14,23 @@ TARGET_PATHS = [
     "/lite",
     "/elite",
     "/prime",
-    "/fiyat-listesi",
+    "/insan-kaynaklari",
+    "/uretim",
+    "/bordro-ik",
+    "/fiyatlar",
+    "/fiyatlar/hesapla",
+    "/kampanyalar",
+    "/e-donusum",
+    "/e-donusum/basvuru",
+    "/indir",
     "/hakkimizda",
-    "/is-ortaklarimiz",
+    "/is-ortaklari",
     "/referanslar",
+    "/referans",
     "/gib-durum-kodlari",
     "/blog",
-    "/iletisim"
+    "/iletisim",
+    "/dene"
 ]
 
 def scrape_site():
